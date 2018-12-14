@@ -7,13 +7,14 @@ margin: 0 auto;
 ul {
   padding: 0px!important;
 }
+
 .menu-principal {
 width: 100%;
 background-color: #252323;
 height: 60px;
 }
 
-main {
+main, .content {
 margin: 0 auto;
 width: 980px;
 position: relative;
@@ -158,4 +159,23 @@ background: #00bac6;
 .slick-dots li {
 padding-left: 10px;
 display: inline-block;
+}
+
+.texto-destaque {
+text-align: center;
+}
+
+.texto-destaque strong {
+color: #646464;
+}
+
+.texto-destaque h1 {
+font-size: 30px;
+text-transform: uppercase;
+color: #818181;
+}
+
+.texto-destaque p {
+font-size: 15px;
+color: #9a9a9a;
 }
